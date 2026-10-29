@@ -1,0 +1,5 @@
+# Tells Wokwi for VS Code which firmware to run. Build first: Wokwi does not compile.
+[wokwi]
+version = 1
+firmware = '.pio/build/esp32dev/firmware.bin'
+elf = '.pio/build/esp32dev/firmware.elf'
